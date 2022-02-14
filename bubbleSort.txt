@@ -1,0 +1,14 @@
+#here we are sorting array by using BubbleSort
+
+array=[3,5,2,7,6,8,4]
+#in BubbleSort we will comapre each element and which one is greater than it shoould come at last in right side.
+again we compare next element ,if it is small then we will do swaping and exchange the element position.
+array=[3,2,5,7,6,8,4]#here we compare 5 is greater than 2 yes it is right so we change the place all are as it is.
+array=[3,2,5,6,7,8,4]#here we compare 5 is greater than 7 no so we did not change but 6 is less then 7 so we change the place is.
+array=[3,2,5,6,7,4,8]#here we compare 6 is greater than 7 no so no change but 8 is greater than 7 so we change tha place is.
+array=[2,3,5,6,7,4,8]#here we compare 2 is less than 3 so we change and 3 is greater than 5 no so it is there only.
+array=[2,3,5,6,4,7,8]#here we check 2 is greater than 3 no so no change,3 is greater than 5 no so no change,5 is greater than 6 no so no change,6 is greater than 7 no so no change but 7 is greater than 4 so we changed and 7 is greater than 8 no so no change.
+array=[2,3,5,4,6,7,8]#same we compare which is greater we echange other wise no change so here we get 6 is greater than 4 so wee changed.
+array=[2,3,4,5,6,7,8]# same we compare and get 5 is greater than 4 so wee changed is.
+#Now if we will compare so our array already sorted so no need to sort.
+# by writing the nested loop we have to compare each element.

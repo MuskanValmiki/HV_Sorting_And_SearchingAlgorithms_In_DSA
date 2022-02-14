@@ -1,0 +1,10 @@
+Q.What is Linear Search?
+Ans.Linear search is a sequential searching algorithm where we 
+start from one end and check every element of the list until the 
+desired element is found. It is the simplest searching algorithm.
+
+#Algorithm of Linear Search-
+LinearSearch(array, key)
+  for each item in the array
+    if item == value
+      return its index

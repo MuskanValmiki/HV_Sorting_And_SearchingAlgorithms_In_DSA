@@ -1,0 +1,23 @@
+#here we are sorting array by using InsertionSort
+
+Q.Here we define what is Insertion Sort? 
+Ans.Insertion sort is a sorting algorithm that places an unsorted 
+element at its suitable place in each iteration.
+
+Q.what is the algorithms of Insertion sort?
+Ans.here i define what is the algorithms of Insertion sort-
+array=[5,9,2,7,8,4,3]#this is our array.
+
+#here we start to doing Insertion sort.
+The first element in the array is assumed to be sorted. 
+Take the second element and store it separately in key.
+Now, the first two elements are sorted. Take the third element 
+and compare it with the elements on the left of it.
+Similarly, place every unsorted element at its correct position.
+
+array=[5,9,2,7,8,4,3]
+array=[2,5,9,7,8,4,3]
+array=[2,5,7,9,8,4,3]
+array=[2,5,7,8,9,4,3]
+array=[2,4,5,7,8,9,3]
+array=[2,3,4,5,7,8,9]

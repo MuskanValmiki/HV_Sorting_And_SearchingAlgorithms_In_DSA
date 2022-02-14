@@ -1,0 +1,22 @@
+#here we are sorting array by using SelectionSort.
+Q.here we define what is selection sort?
+ans.Selection sort is another sorting technique in which we find the minimum element in every iteration and place it in the array beginning from the first index.
+Thus, a selection sort also gets divided into a sorted and unsorted subarray.
+
+Q.what is the algorithms of selection sort?
+ans.here i define what is the algorithms of selection sort-
+array=[3,2,5,7,1,8]#this is our array.
+
+#here we start to doing selection sort.
+In selection sort we have to put small element first.
+which element we get small we just replace that element to small element place.
+In this we just took small element and compare to all and which is sutable position we put.
+In this we use nested loop.
+This is my algorithms.
+Same things we are doing again and again.
+
+array=[2,3,5,7,1,8]
+array=[1,3,5,7,2,8]
+array=[1,2,5,7,3,8]
+array=[1,2,3,7,5,8]
+array=[1,2,3,5,7,8]
